@@ -53,3 +53,6 @@ Start the application using following command
 mvn spring-boot:run
 ```
 
+## Authors
+
+* **Bhupesh Singh Padiyar** - *Initial work* - [PurpleBooth](https://github.com/bhupeshpadiyar)
