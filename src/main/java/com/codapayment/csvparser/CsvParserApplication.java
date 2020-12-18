@@ -33,7 +33,6 @@ public class CsvParserApplication implements CommandLineRunner {
 
 		try {
 			// Read headers
-
 			logger.debug("Reading CSV file headers : ");
 			String[] headers=new CsvUtils().getCSVHeaders(inputFile,delimiter);
 
@@ -46,9 +45,8 @@ public class CsvParserApplication implements CommandLineRunner {
 			logger.debug("JSON Response : ", jsonResp);
 			
 			logger.debug("Writing JSON String to JSON File : ");
-			
+			//Write the generated JSON to THE JSON file
 			new CsvUtils().writeJSONToFile(outputFile, jsonResp);
-			
 			logger.debug("CSV to JSON conversion Successful!");
 		} catch (Exception e) {
 			e.printStackTrace();
