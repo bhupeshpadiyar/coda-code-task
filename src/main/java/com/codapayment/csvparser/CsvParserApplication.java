@@ -51,7 +51,8 @@ public class CsvParserApplication implements CommandLineRunner {
 			
 			logger.debug("CSV to JSON conversion Successful!");
 		} catch (Exception e) {
-			logger.error("Exception!! ", e.getMessage());
+			e.printStackTrace();
+			logger.error("Exception!! "+ e.getMessage());
 		}
 	}
 }
