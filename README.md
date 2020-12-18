@@ -5,7 +5,7 @@ Parsing the CSV file delimited with comma(,)
 
 ## Getting Started
 
-This project helps to parse a CSV file (with the specified delimiter) located in local drive and writes the equivalent JSON file with key as header column name and value as corrosponding row column value
+This project helps to parse a CSV file (with the specified delimiter) located in local drive and writes the equivalent JSON file with key as header column name and value as corresponding column value any any row.
 
 i.e. The following CSV
 
