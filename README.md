@@ -55,4 +55,4 @@ mvn spring-boot:run
 
 ## Authors
 
-* **Bhupesh Singh Padiyar** - *Initial work* - [PurpleBooth](https://github.com/bhupeshpadiyar)
+* **Bhupesh Singh Padiyar** - *Initial work* - [Bhupesh Singh Padiyar](https://github.com/bhupeshpadiyar)
